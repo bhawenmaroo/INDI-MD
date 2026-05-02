@@ -15,6 +15,9 @@ This repository contains the documentation, specifications, and project manageme
   - Social Kit
   - Launch Checklist
   - Maintenance Guide
+- `index.html` - Main entry point / Homepage for the website.
+- `styles.css` - Global design system and component styling.
+- `script.js` - Interactions, animations, and dark mode toggling.
 - `Context.md` - Persistent context and architecture rules for the AI assistant.
 - `log.md` - An ongoing log of all changes made to this repository by the AI assistant.
 

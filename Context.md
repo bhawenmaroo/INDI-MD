@@ -16,6 +16,13 @@ This project contains the Markdown documentation and specifications for the Indi
 
 ### Directory Structure
 - `/Doc's/` - Contains various `.md` documentation files (PRD, Design System, Tech Spec, etc.).
+- `index.html`, `styles.css`, `script.js` - The core website codebase (HTML/CSS/JS).
 - `README.md` - Main entry point.
 - `Context.md` - AI context rules (this file).
 - `log.md` - AI action history.
+
+### Tech Stack Rules
+- **Core:** HTML5, CSS3 (Vanilla), JavaScript (Vanilla ES6).
+- **Libraries:** Vanta.js / Three.js for 3D effects.
+- **Styling:** Follows `styles.css` custom properties for tokens. Responsive design.
+- **Interactivity:** Uses `script.js` for lightweight DOM manipulation (theme, scroll).
