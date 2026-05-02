@@ -418,3 +418,31 @@ footer {
     background: #080F1E !important;
   }
 }
+
+input:focus, textarea:focus {
+    border-color: var(--color-accent) !important;
+    box-shadow: 0 0 0 2px rgba(0, 200, 150, 0.2);
+}
+
+.lifesciences-bg {
+  background: linear-gradient(135deg, #0A1628, #0D1E3A);
+  background-size: 400% 400%;
+  animation: gradient-flow 15s ease infinite;
+}
+
+.agri-bg {
+  background: linear-gradient(135deg, #0A1F0E, #0D2814);
+  background-size: 400% 400%;
+  animation: gradient-flow 15s ease infinite;
+}
+
+.scientific-bg {
+  background: linear-gradient(135deg, #081A1F, #0A2028);
+  background-size: 400% 400%;
+  animation: gradient-flow 15s ease infinite;
+}
+
+/* Ensure nav text is readable on white pages */
+body:not(.scrolled) #navbar {
+    background: var(--color-primary);
+}
